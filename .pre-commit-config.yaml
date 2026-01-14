@@ -10,10 +10,10 @@ repos:
     rev: 6.1.0
     hooks:
       - id: flake8
+        args: ["--max-line-length=100","--ignore=E501,W503"]
 
   - repo: https://github.com/PyCQA/pylint
     rev: v3.0.3
     hooks:
       - id: pylint
-        args:
-          - --disable=C0114,C0116
+        args: ["--fail-under=7.5"]

@@ -1,5 +1,5 @@
 """marks with level"""
-name = input("Enter name: ")
+name = input("Enter your name: ")
 marks = int(input("Enter marks: "))
 if marks > 70:
     print(f"{name} got Distintion")
