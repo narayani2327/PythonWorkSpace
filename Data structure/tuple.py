@@ -21,3 +21,16 @@ print(myTuple[2:])       # Output: ('Orange', 'Grapes', 20.0, 10)
 
 # 6. Slicing with negative indices
 print(myTuple[-4:-1])    # Output: ('Orange', 'Grapes', 20.0)
+
+sensor_readings = ("2026-01-16", 22.5, "Sunny", 1013.2, 45, "North", "Active")
+
+# get the weather condition
+print(sensor_readings[1])
+# very last item
+print(sensor_readings[-1])
+# first 3 items
+print(sensor_readings[:3])
+# first 4 items
+print(sensor_readings[:4])
+# slice from index 1 to index 4
+print(sensor_readings[1:5])
